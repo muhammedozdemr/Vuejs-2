@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vue</title>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	
+	<div id="app">
+		<!--Anon user kullanıldığında v-if de DOM da gözükmez -->
+		<h1 v-if="isLoggedIn">{{message}} {{username}}</h1>
+		<h1 v-if="!isLoggedIn">Anon User</h1>
+		<!--Anon user kullanıldığında v-show de DOM da gözükür -->
+		<h1 v-show="isLoggedIn">{{message}} {{username}}</h1>
+		<h1 v-show="!isLoggedIn">Anon User</h1>
+		<div v-html="city"></div>
+	</div>
+	
+
+</body>
+</html>
