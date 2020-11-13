@@ -6,7 +6,8 @@
       "name": "Daniel Wellington Stainless Steel Watch with Brown Strap",
       "seller": "Daniel Wellington",
       "isAvailable": true,
-      "isEligible": true
+      "isEligible": true,
+      "price":"99.90"
     },
     {
       "url": "https://www.amazon.com/gp/product/B00JP6FP6E/ref=ox_sc_act_title_1?ie=UTF8&psc=1&smid=A2VT4H683M5NNA",
@@ -14,7 +15,8 @@
       "name": "Apple Watch Band Milanese Loop",
       "seller": "MoKo",
       "isAvailable": true,
-      "isEligible": false
+      "isEligible": false,
+      "price":"16.90"
     }
   ],
   "saved": [
@@ -24,7 +26,8 @@
       "name": "Apple Watch Band Soft Silicone Replacement Sport Band for 38mm Apple Watch",
       "seller": "MoKo",
       "isAvailable": true,
-      "isEligible": true
+      "isEligible": true,
+      "price":"28.76"
     }
   ]
 }

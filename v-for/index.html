@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>VueJS Demo</title>
+  <title>VueJS Eğitim</title>
   <link rel="stylesheet" type="text/css" href="app.css" />
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <script type="text/javascript" src="app.js"></script>
@@ -28,7 +28,9 @@
     			<a href="#" v-on:click="removeFromCart(index)">Delete</a>
     			<a href="#" class="secondary" v-on:click="saveForLater(index)">Save for Letter</a>
     		</div>
+    		<p class="price">${{item.price}}</p>
     	</div>
+    	<div class="subtotal">Subtotal ({{cart.length}} items): <span class="price">${{cartTotal}}</span></div>
     </div>
     <h2>Saved for Letter ({{saved.length}} item)</h2>
     <div class="cart">
